@@ -1,4 +1,29 @@
 ---
+## Stap 0: Stijlrichting bepalen en sub-skill activeren
+
+Analyseer de briefing op stijlrichting VOORDAT je begint met bouwen.
+Bepaal welke sub-skill van toepassing is en lees die SKILL.md eerst.
+
+### Stijlbepaling op basis van briefing
+
+Zoek in de briefing naar:
+- Referentiesites (strak/minimaal → minimalist, warm/zacht → soft, gedurfd/opvallend → brutalist)
+- Tone of voice (zakelijk → minimalist, vriendelijk → soft, creatief → brutalist)
+- Sector (juridisch/finance → minimalist, zorg/welzijn → soft, creatief bureau → brutalist)
+- Expliciete stijlwoorden van de klant
+
+### Sub-skill activatie
+
+| Stijlrichting | Sub-skill | Wanneer |
+|---|---|---|
+| Clean, zakelijk, rustig | `minimalist-skill/SKILL.md` | Finance, juridisch, tech, SaaS |
+| Warm, vriendelijk, zacht | `soft-skill/SKILL.md` | Zorg, wellness, food, lifestyle |
+| Gedurfd, opvallend, creatief | `brutalist-skill/SKILL.md` | Creatief bureau, mode, events |
+| Bestaande site verbeteren | `redesign-skill/SKILL.md` | Klant heeft al een site |
+
+### Werkwijze
+
+1. Bepaal stijlrichting uit brief
 name: emil-design-eng
 description: This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.
 ---
